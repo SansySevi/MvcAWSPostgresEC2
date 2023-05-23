@@ -13,7 +13,7 @@ namespace MvcAWSPostgresEC2.Models
         [Column("DNOMBRE")]
         public string Nombre { get; set; }
 
-        [Column("LOCALIDAD")]
+        [Column("LOC")]
         public string Localidad { get; set; }
     }
 }
